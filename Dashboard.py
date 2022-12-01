@@ -17,9 +17,9 @@ import plotly.graph_objects as go
 import shap
 
 # URL API : local et cloud
-#URL_API = "http://127.0.0.1:5000/"
+URL_API = "http://127.0.0.1:5000/"
 #URL_API = 'https://fabienfh-openclassroomsp7-dashboard-wo11ni.streamlit.app/'
-URL_API = 'https://p7-oc.onrender.com'
+#URL_API = 'https://p7-oc.onrender.com'
 #URL_API = 'https://fabien-haffar-p7.herokuapp.com/'
 
 st.set_page_config(layout="wide") # Affichage large
@@ -44,7 +44,7 @@ liste_hist = ['NAME_FAMILY_STATUS', 'NAME_EDUCATION_TYPE', 'NAME_HOUSING_TYPE', 
 features_to_compare = liste_lineplot + liste_hist
 
 # Les données de densité
-dico_kde = pickle_load('dictionnaire_kde.pickle')
+dico_kde = pickle_load('Dictionnaire_kde.pickle')
 # Les données des histogrammes
 dico_hist = pickle_load('dictionnaire_hist.pickle')
 df_hist =  pickle_load('df_hist_export.pickle')
