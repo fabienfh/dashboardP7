@@ -36,4 +36,4 @@ def make_prediction(ID):
     return jsonify({"prediction": prediction})
 
 if __name__ == "__main__":
-    app.run( debug=False, port=8880)
+    app.run( debug=False, port=6969)
