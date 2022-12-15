@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 import shap
 
 # URL API : local et cloud
-URL_API = 'http://127.0.0.1:5000/'
+URL_API = 'https://fabienfh-dashboardp7-dashboard-wr9gay.streamlit.app/'
 #URL_API = 'http://fabien.website/'
 
 st.set_page_config(layout="wide") # Affichage large
@@ -36,8 +36,8 @@ X_test = pd.read_csv('X_test.csv')
 
 # Les features
 features_70 = pickle_load('liste_70_feature_importances.pickle')
-liste_lineplot = ['EXT_SOURCE_2', 'EXT_SOURCE_3', 'EXT_SOURCE_1', 'PAYMENT_RATE', 'YEAR_BIRTH', #'AMT_INCOME_TOTAL',
-                  'AMT_CREDIT','AMT_ANNUITY', 'AMT_GOODS_PRICE', 'INCOME_PER_PERSON']
+liste_lineplot = ['EXT_SOURCE_2', 'EXT_SOURCE_3', 'EXT_SOURCE_1', 'PAYMENT_RATE', 'YEAR_BIRTH',
+                  'AMT_INCOME_TOTAL', 'AMT_CREDIT','AMT_ANNUITY', 'AMT_GOODS_PRICE', 'INCOME_PER_PERSON']
 liste_hist = ['NAME_FAMILY_STATUS', 'NAME_EDUCATION_TYPE', 'NAME_HOUSING_TYPE', 'NAME_INCOME_TYPE']
 features_to_compare = liste_lineplot + liste_hist
 
