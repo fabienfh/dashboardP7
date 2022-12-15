@@ -5,4 +5,4 @@ Dans le cadre du projet P7, déploiement d'un Dashboard sous Streamlit. L'object
 
 La probabilité est établie en questionnant en JSON une API hébergée sur HEROKU dont le lien est : https://franck-app-heroku.herokuapp.com/prediction/100150 (où 100150 est l'ID_client).
 
-Le Dashboard est réalisé sous Streamlit et hébergé sur Streamlit Share. Lien : https://francklaugier-openclassrooms-p7-dashboard-dashboard-w7qyka.streamlitapp.com/
+Le Dashboard est réalisé sous Streamlit et hébergé sur Streamlit Share. Lien : https://fabienfh-dashboardp7-dashboard-wr9gay.streamlit.app/
