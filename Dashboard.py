@@ -43,7 +43,7 @@ liste_hist = ['NAME_FAMILY_STATUS', 'NAME_EDUCATION_TYPE', 'NAME_HOUSING_TYPE', 
 features_to_compare = liste_lineplot + liste_hist
 
 # Les données de densité
-dico_kde = pickle_load('Dictionnaire_kde.pickle')
+dico_kde = pickle_load('dictionnaire_kde.pickle')
 # Les données des histogrammes
 dico_hist = pickle_load('dictionnaire_hist.pickle')
 df_hist =  pickle_load('df_hist_export.pickle')
