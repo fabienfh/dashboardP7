@@ -130,6 +130,7 @@ def accueil():
     st.write('')
     st.write('')
     st.write('Le calcul de la probabilité doit être réalisé via une API dans le cloud.')
+    st.write('                            developed by: Fabien Haffar.')
 
 def load_prediction(id_client):
     # Requête permettant de récupérer la prédiction de faillite du client sélectionné
