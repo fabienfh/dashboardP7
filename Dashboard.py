@@ -17,7 +17,8 @@ import plotly.graph_objects as go
 import shap
 
 # URL API : local et cloud
-URL_API = 'https://fabienfh-dashboardp7-dashboard-wr9gay.streamlit.app/'
+URL API = 'https://app-oc.herokuapp.com/'
+#URL Dashboard = 'https://fabienfh-dashboardp7-dashboard-wr9gay.streamlit.app/'
 #URL_API = 'http://fabien.website/'
 
 st.set_page_config(layout="wide") # Affichage large
